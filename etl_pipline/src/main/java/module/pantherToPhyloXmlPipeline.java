@@ -21,8 +21,8 @@ public class pantherToPhyloXmlPipeline
 {
     public static void main(String args[])
     {
-        PantherJsonToPhyloXml("PTHR11705");
-//        convertAllInDirectory(); files are already converted u can convert again
+//        PantherJsonToPhyloXml("PTHR11705");
+        convertAllInDirectory(); //files are already converted u can convert again
     }
 
     // specifically converts all pruned panther files from resource directory
